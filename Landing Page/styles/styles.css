@@ -76,6 +76,7 @@ p{
 
 img{
     width: 580px;
+    
 
 }
 
@@ -85,20 +86,28 @@ form{
     width: 70%;
 }
 
-form[type="submit"]{
+input[type="submit"]{
     height: 50px;
-    width: 50px;
+    width: 350px;
     background-color: rgb(132,14,201);
     color: white;
-    font-weight: bold;  
+    font-weight: bold; 
+    
 }
 
-form[type="submit"]:hover{
+input[type="submit"]:hover{
     cursor: pointer; 
+    color: rgb(219, 219, 219);
 }
 
+.animation {animation: bounce 2s infinite;}
+@keyframes bounce{
+    0% {transform: translateY(0);}
+    40% {transform: translateY(-20px);}
+    20% {transform: translateY(-10px);}
+    
 
-
+}
 
 input{
     margin-top: 20px;
