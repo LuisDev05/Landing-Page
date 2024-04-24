@@ -17,8 +17,9 @@ header{
 #title{
     flex-direction: column;
     line-height: 10px;
-    
+       
 }
+
 li{
     display: inline-block;
     margin: 20px;
@@ -117,3 +118,26 @@ input{
     border: none;
     font-size: 15px;
 }
+
+.footer-icons {
+    display: inline-block;
+    margin: 20px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+footer {
+    background-color: rgb(132,14,201); /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 30px; /* Espaçamento interno do rodapé */
+    width: 100%; /* Define a largura do rodapé como 100% da largura da janela do navegador */
+    position: fixed; /* Fixa o rodapé na parte inferior da janela do navegador */
+    bottom: 0; /* Coloca o rodapé na parte inferior */
+    left: 0; /* Alinha o rodapé à esquerda */
+}
+
+
+
