@@ -29,4 +29,11 @@
     ul{
         text-align: center;
     }
+
+    footer{
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+        
+    }
 }

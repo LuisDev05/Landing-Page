@@ -119,24 +119,75 @@ input{
     font-size: 15px;
 }
 
-.footer-icons {
-    display: inline-block;
-    margin: 20px;
-    font-size: 30px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
 
+/*Icones do Rodape*/
+.footer-icons a {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px; 
+    padding: 10px;
+    border-radius: 15px;
 }
 
+
+/*Cor do Facebook*/
+.footer-icons a:nth-child(1) i {
+    color:white; 
+    
+}
+
+.footer-icons a:nth-child(1) i:hover {
+    color: #0044d5;
+    transition: 0.3s all; 
+}
+
+
+/*Cor do WhatsApp*/
+.footer-icons a:nth-child(2) i {
+    color: white; 
+}
+
+.footer-icons a:nth-child(2) i:hover {
+    color: #40C351; 
+    transition: 0.3s all;
+}
+ 
+
+/*Cor do Instagram*/
+.footer-icons a:nth-child(3) i {
+    color: white;   
+}
+
+.footer-icons a:nth-child(3) i:hover {
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%,
+      #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s all;  
+    
+}
+
+/*Co do Github*/
+.footer-icons a:nth-child(4) i {
+    color: white; 
+}
+
+.footer-icons a:nth-child(4) i:hover {
+    color: #9b0084;
+    transition: 0.3s all; 
+}
+
+
+
 footer {
-    background-color: rgb(132,14,201); /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto no rodapé */
-    padding: 30px; /* Espaçamento interno do rodapé */
-    width: 100%; /* Define a largura do rodapé como 100% da largura da janela do navegador */
-    position: fixed; /* Fixa o rodapé na parte inferior da janela do navegador */
-    bottom: 0; /* Coloca o rodapé na parte inferior */
-    left: 0; /* Alinha o rodapé à esquerda */
+    
+    text-align: center;
+    padding: 10px; 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
 }
 
 
