@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langind Page</title>
+    <link href="/Landing Page/styles/styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>Markenting</h1>
+            <h1>Criativo</h1>
+        </div>
+        <ul>
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="#"><li>Servicos</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="contact.html"><li>Contato</li></a>
+            <a href ="#" id="Inscreva-se-btn"><li>Já tem uma conta?</li></a>
+
+        </ul>
+
+    </header>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+    form {
+        
+        display: flex;
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 50px;
+        
+        
+         
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 25px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: rgb(132,14,201);
+        color: white;
+        
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 400px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: rgb(92, 3, 143);
+    }
+</style>
+</head>
+<body>
+
+<form action="#" method="POST">
+<label for="name">Nome:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="message">Mensagem:</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+
+<input type="submit" value="Enviar">
+</form>
+   
+
+  
+</body>
+</html>
