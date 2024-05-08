@@ -8,6 +8,7 @@ body{
 }
 
 header{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,6 +22,7 @@ header{
 }
 
 li{
+    
     display: inline-block;
     margin: 20px;
 }
@@ -65,12 +67,39 @@ h2{
     font-family: poppinsmedium;
 }
 
+h3{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+   
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    line-height: 10px;
+    
+    
+   
+}
+.text{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  
+   
+    
+}
+
 span{
     color: rgb(132,14,201);
 }
 
 p{
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 34px;
     max-width: 500px;
     font-family: poppinslight;
 }
